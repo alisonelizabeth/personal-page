@@ -12,25 +12,30 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+/*
+body {
+	background: #273139
+}*/
 
 .container {
 	margin: 0 auto;
-	max-width: 960px;
+	max-width: 960px !important;
 }
 
 /* top-view styles*/
 .top-view-container {
-	background: url('../images/riding.jpg') no-repeat center center;
+	background: url('../images/ridingbw.jpg') no-repeat;
 	background-size: cover;
-	min-height: 500px;
+	min-height: 475px;
 	position:relative;
+	background-position: center;
 }
 
 .top-view-layer {
 	position: absolute;
 	width: 100%;
-	min-height: 500px;
-	background: rgb(54, 72, 146);
+	min-height: 475px;
+	background: rgb(43, 43, 43);
 	opacity: 0.6;
 }
 
@@ -40,10 +45,18 @@ a:hover {
 }
 
 .top-view h1 {
-	color: white;
-	width: 250px;
+	color: rgb(224, 98, 98);
 	margin-left: 40px;
 	padding-top: 30px;
+	font-size: 60px;
+	font-family: 'Oswald';
+}
+
+.top-view h2 {
+	color: whiteSmoke;
+	font-family: 'Open Sans';
+	margin-left: 40px;
+	font-size: 25px;
 }
 
 
