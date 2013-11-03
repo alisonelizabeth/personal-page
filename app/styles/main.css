@@ -1,0 +1,250 @@
+/*basic styles */
+
+* {
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+/* top-view styles*/
+.top-view-container {
+	background: url('../images/riding.jpg') no-repeat center center;
+	background-size: cover;
+	min-height: 500px;
+	position:relative;
+}
+
+.top-view-layer {
+	position: absolute;
+	width: 100%;
+	min-height: 500px;
+	background: rgb(54, 72, 146);
+	opacity: 0.6;
+}
+
+.top-view {
+	position: absolute;
+	z-index: 1000;
+}
+
+.top-view h1 {
+	color: white;
+	width: 250px;
+	margin-left: 40px;
+	padding-top: 30px;
+}
+
+
+/* timeline styles*/
+
+.text p {
+	font-family: 'Oswald'
+}
+
+.text span {
+	display: inline-block;
+	font-family: 'Open Sans';
+	line-height: 15px;
+	font-size: 12px;
+}
+
+.one-third img {
+	width: 70px;
+	border-radius: 10px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+
+.four img {
+	width: 70px;
+	margin-right: 5px;
+	border-radius: 10px;
+	float: left;
+	margin-top: 20px;
+}
+
+.text {
+	display: inline-block;
+	width: 130px;
+}
+
+.date {
+	font-size: 10px;
+	color: #acacac;
+	font-style: italic;
+}
+
+/* actual line of timeline */
+.line {
+	position: absolute;
+	height: 40px;
+	padding-left: 60px;
+	background: rgb(68, 68, 68);
+	display: inline-block;
+	width: 880px;
+	font-family: 'Oswald';
+	z-index: 1;
+}
+
+.line-active {
+	position: absolute;
+	z-index: 2;
+	height: 32px;
+	font-family: 'Oswald';
+	font-weight: bold;
+	padding-top: 8px;
+	text-align: center;
+}
+
+.year {
+	color: white;
+	padding-top: 7px;
+	width: 90px;
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid rgb(68, 68, 68);
+	display: inline-block;
+}
+/* navigation of line */
+
+.circles-top {
+	height: 15px;
+}
+
+.lines {
+	height: 55px;
+}
+
+.circle {
+	border-radius: 10px;
+	width: 10px;
+	height: 10px;
+}
+
+.ttf-line {
+	display: inline-block;
+	border-top: 2px dotted rgb(68, 68, 68);
+	margin-left: 87px;
+	border-right: 2px dotted rgb(68, 68, 68);
+	height: 55px;
+	width: 73px;
+}
+
+.ct-line {
+	display: inline-block;
+	border-top: 2px dotted rgb(68, 68, 68);
+	margin-left: 160px;
+	border-right: 2px dotted rgb(68, 68, 68);
+	height: 55px;
+	width: 110px;
+}
+
+.es-line{
+	display: inline-block;
+	border-top: 2px dotted rgb(68, 68, 68);
+	margin-left: 129px;
+	border-left: 2px dotted rgb(68, 68, 68);
+	height: 55px;
+	width: 110px;
+}
+
+.scbiz-line {
+	display: inline-block;
+	border-top: 2px dotted rgb(68, 68, 68);
+	margin-left: 40px;
+	border-left: 2px dotted rgb(68, 68, 68);
+	height: 55px;
+	width: 195px;
+}
+
+.ttf-circle {
+	display: inline-block;
+	margin-left: 155px;
+	background: rgb(14, 218, 161);
+	border: 1px solid #08747E;
+}
+
+.ct-circle {
+	display: inline-block;
+	margin-left: 260px;
+	background: rgb(226, 23, 153);
+	border: 1px solid #9C027E;
+}
+
+.es-circle {
+	display: inline-block;
+	margin-left: 120px;
+	background: rgb(253, 160, 19);
+	border: 1px solid #A77B09;
+}
+
+.scbiz-circle{
+	display: inline-block;
+	margin-left: 139px;
+	background: rgb(19, 94, 253);
+	border: 1px solid #28008D;
+}
+
+/*javascript styles*/
+
+.farm-active {
+	width: 200px;
+	margin-left: 160px;
+	opacity: 0.9;
+	background: rgb(14, 218, 161);
+	color: white;
+}
+
+.film-active {
+	width: 135px;
+	margin-left: 437px;
+	opacity: 0.9;
+	background: rgb(226, 23, 153);
+	color: white;
+}
+
+.newspaper-active {
+	width: 155px;
+	margin-left: 570px;
+	opacity: 0.9;
+	background: rgb(253, 160, 19);
+	color: white;
+}
+
+.asu-active {
+	width: 400px;
+	margin-left: 200px;
+	opacity: 0.9;
+	background: rgb(68, 68, 68);
+	color: white;
+}
+
+.business-active {
+	width: 190px;
+	margin-left: 728px;
+	opacity: 0.9;
+	background: rgb(19, 94, 253);
+	color: white;
+}
+
+
+
+
