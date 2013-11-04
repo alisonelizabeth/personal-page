@@ -24,8 +24,11 @@ ul {
 }
 
 .container {
-	margin: 0 auto;
-	max-width: 960px !important;
+	width: 960px !important;
+	margin-left: 115px !important;
+	margin-top: 0 !important;
+	padding-left: 10px !important;
+	background: white;
 }
 
 .top-container {
@@ -122,6 +125,11 @@ ul {
 	margin-left: 25px;
 }
 
+.top-view p {
+	width: 300px;
+	margin: 0;
+}
+
 .equestrian {
 	font-style: italic;
 	font-weight: 400;
@@ -148,7 +156,7 @@ ul {
 	padding: 10px 0;
 	background: white;
 	padding-left: 25px;
-	border-radius: 5px 5px 0 0;
+	border-radius: 10px 10px 0 0;
 	font-family: 'Oswald', sans-serif;
 }
 
@@ -218,13 +226,40 @@ ul {
 
 .project-three {
 	background: rgb(85, 87, 88);
-	border-radius: 0 0 5px 5px;
+	border-radius: 0 0 10px 10px;
 	color: #222222;
 }
 
 .project-three a {
 	color: #222222;
 }
+
+/*resume styles*/
+.resume {
+	margin-left: 115px;
+	width: 970px;
+	margin-top: 30px;
+	background: white;
+	border-radius: 10px 10px 0 0;
+}
+
+.resume h1 {
+	color: #07014B;
+	text-transform: uppercase;
+	padding: 10px 0;
+	padding-left: 25px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.resume p {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
 /* timeline styles*/
 
 .text p {
