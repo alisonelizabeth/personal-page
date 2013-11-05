@@ -25,11 +25,9 @@ ul {
 
 .container {
 	width: 960px !important;
-	margin-left: 115px !important;
-	margin-top: 0 !important;
-	padding-left: 10px !important;
+	margin: 0 0 0 115px !important;
+	padding: 0 0 30px 10px !important;
 	background: white;
-	padding-bottom: 30px !important;
 	border-radius: 0 0 10px 10px !important;
 }
 
@@ -81,7 +79,7 @@ ul {
 .menu li {
 	list-style-type: none;
 	padding: 20px 10px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	cursor: pointer;
 	text-align: center;
 }
@@ -99,9 +97,8 @@ ul {
 	background-position: center;
 	width: 970px;
 	border-radius: 10px;
-	margin-top: 20px;
+	margin: 20px 0 0 115px;
 	border: 1px solid rgb(68, 68, 68);
-	margin-left: 115px;
 }
 
 .top-view-layer {
@@ -123,12 +120,12 @@ ul {
 	margin-left: 25px;
 	padding-top: 30px;
 	font-size: 60px;
-	font-family: 'Oswald';
+	font-family: 'Oswald', sans-serif;
 }
 
 .top-view h2 {
 	color: whiteSmoke;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	margin-left: 25px;
 }
 
@@ -172,25 +169,22 @@ ul {
 .my-work {
 	width: 970px;
 	border-radius: 10px;
-	margin-left: 115px;
-	margin-top: 30px;	
+	margin: 30px 0 0 115px;
 	font-family: 'Open Sans', sans-serif;
 }
 
 .my-work h1 {
 	color: #07014B;
 	text-transform: uppercase;
-	padding: 10px 0;
+	padding: 10px 0 10px 25px;
 	background: white;
-	padding-left: 25px;
 	border-radius: 10px 10px 0 0;
 	font-family: 'Oswald', sans-serif;
 }
 
 .my-work img {
 	width: 400px;
-	margin-left: 20px;
-	margin-bottom: 20px;
+	margin: 0 0 20px 20px;
 	padding: 10px;
 	background: white;
 	border-radius: 5px;
@@ -204,8 +198,7 @@ ul {
 .description {
 	display: inline-block;
 	width: 420px;
-	margin-left: 40px;
-	margin-top: 20px;
+	margin: 20px 0 0 40px;
 }
 
 .description h2 {
@@ -223,11 +216,10 @@ ul {
 }
 
 .description p {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-style: italic;
-/*	color: whiteSmoke;
-*/}
+}
 
 .description li {
 	list-style-type: circle;
@@ -263,9 +255,8 @@ ul {
 
 /*resume styles*/
 .resume {
-	margin-left: 115px;
+	margin: 30px 0 0 115px;
 	width: 970px;
-	margin-top: 30px;
 	background: white;
 	border-radius: 10px 10px 0 0;
 }
@@ -273,29 +264,25 @@ ul {
 .resume h1 {
 	color: #07014B;
 	text-transform: uppercase;
-	padding: 10px 0;
-	padding-left: 25px;
+	padding: 10px 0 10px 25px;
 	font-family: 'Oswald', sans-serif;
 }
 
 .resume p {
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-bottom: 40px;
+	padding: 0 25px 40px 25px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 }
 
 /* timeline styles*/
-
 .text p {
-	font-family: 'Oswald'
+	font-family: 'Oswald', sans-serif;
 }
 
 .text span {
 	display: inline-block;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	line-height: 15px;
 	font-size: 12px;
 }
@@ -304,16 +291,14 @@ ul {
 	width: 70px;
 	border-radius: 10px;
 	float: left;
-	margin-top: 20px;
-	margin-right: 5px;
+	margin: 25px 5px 0 0;
 }
 
 .four img {
 	width: 70px;
-	margin-right: 5px;
+	margin: 20px 5px 0 0;
 	border-radius: 10px;
 	float: left;
-	margin-top: 20px;
 }
 
 .text {
@@ -335,7 +320,7 @@ ul {
 	background: rgb(68, 68, 68);
 	display: inline-block;
 	width: 880px;
-	font-family: 'Oswald';
+	font-family: 'Oswald', sans-serif;
 	z-index: 1;
 }
 
@@ -343,7 +328,7 @@ ul {
 	position: absolute;
 	z-index: 2;
 	height: 32px;
-	font-family: 'Oswald';
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding-top: 8px;
 	text-align: center;
@@ -422,7 +407,6 @@ ul {
 	border: 1px solid #28008D;
 }
 
-
 .asu-line {
 	display: inline-block;
 	margin-left: 145px;
@@ -446,29 +430,25 @@ ul {
 	width: 167px;
 }
 
-
 .asu-circle {
 	display: inline-block;
-	margin-left: 140px;
+	margin: 44px 0 0 140px;
 	background: rgb(218, 14, 185);
 	border: 1px solid #AA0582;
-	margin-top: 44px;
 }
 
 .ct-circle {
 	display: inline-block;
-	margin-top: 44px;
-	margin-left: 274px;
+	margin: 44px 0 0 274px;
 	background: rgb(111, 221, 255);
 	border: 1px solid #4F859E;
 }
 
 .tiy-circle{
 	display: inline-block;
-	margin-left: 442px;
+	margin: 44px 0 0 442px;
 	background: rgb(193, 86, 219);
 	border: 1px solid #603670;
-	margin-top: 44px;
 }
 
 /*javascript styles*/
@@ -531,21 +511,18 @@ ul {
 
 /*contact-me styles*/
 .contact-me {
-	margin-left: 115px;
+	margin: 20px 0 90px 115px;
 	background: white;
-	margin-top: 20px;
 	border-radius: 10px;
 	width: 970px;
-	margin-bottom: 90px;
 	height: 370px;
-	background: rgb(96, 194, 139);
+	background: rgb(148, 169, 189);
 }
 
 .contact-me h1 {
-	color: rgb(34, 119, 102);
+	color: #07014B;
 	text-transform: uppercase;
-	padding: 10px 0;
-	padding-left: 25px;
+	padding: 10px 0 10px 25px;
 	font-family: 'Oswald', sans-serif;
 	border-radius: 10px 10px 0 0 ;
 }
@@ -554,8 +531,7 @@ ul {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
-	padding-left: 25px;
-	padding-bottom: 30px;
+	padding: 0 0 30px 25px;
 	color: rgb(34, 34, 34);
 }
 
@@ -564,7 +540,7 @@ ul {
 	padding: 25px 40px;
 	text-align: center;
 	width: 100px;
-	background: rgb(34, 119, 102);
+	background: #07014B;
 	border-radius: 10px;
 	font-size: 22px;
 	color: white;
@@ -582,3 +558,12 @@ footer {
 	font-size: 20px;
 }
 
+/* resume.html styles*/
+.resume-container {
+	width: 970px;
+}
+
+.resume-container h1 {
+	text-align: center;
+	font-family: 
+}
