@@ -560,10 +560,39 @@ footer {
 
 /* resume.html styles*/
 .resume-container {
-	width: 970px;
+	width: 700px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .resume-container h1 {
+	font-family: 'Oswald', sans-serif;
+}
+
+.header {
 	text-align: center;
-	font-family: 
+}
+
+.social-image {
+	width: 25px;
+}
+
+.scbiz {
+	margin-top: 25px;
+}
+
+.evening-sun {
+	margin-top: 25px;
+}
+
+.college-times {
+	margin-top: 25px;
+}
+
+.date-period {
+	font-style: italic;
+}
+
+.resume-ul {
+	list-style-type: circle;
+	margin-left: 30px;
 }
