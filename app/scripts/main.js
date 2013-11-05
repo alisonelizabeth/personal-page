@@ -1,9 +1,9 @@
-$('.four').mouseover(function(){
+$('.one-third').mouseover(function(){
 	$('.line').css('background', '#acacac')
 	$('.year').css('color', 'rgb(117, 115, 115)')
 })
 
-$('.four').mouseleave(function(){
+$('.one-third').mouseleave(function(){
 	$('.line').css('background', 'rgb(68, 68, 68)')
 	$('.year').css('color', 'white')
 })
@@ -40,13 +40,56 @@ $('.business').mouseleave(function(){
 	$('.line-active').removeClass('business-active').text('')
 });
 
+$('.asu').mouseover(function(){
+	$('.line-active').addClass('asu-active').text('3 YR 6 MOS')
+});
 
-// $('.asu').mouseover(function(){
-// 	$('.line-active').addClass('asu-active').text('3 YR 6 MOS')
-// 	$('.line').css('background', '#acacac')
-// });
+$('.asu').mouseleave(function(){
+	$('.line-active').removeClass('asu-active').text('')
+});
 
-// $('.asu').mouseleave(function(){
-// 	$('.line-active').removeClass('asu-active').text('')
-// 	$('.line').css('background', 'rgb(68, 68, 68')
-// });
+$('.magic').mouseover(function(){
+	$('.line-active').addClass('magic-active').text('1 YR 5 MOS')
+});
+
+$('.magic').mouseleave(function(){
+	$('.line-active').removeClass('magic-active').text('')
+});
+
+$('.school').mouseover(function(){
+	$('.line-active').addClass('tiy-active').text('3 MOS')
+});
+
+$('.school').mouseleave(function(){
+	$('.line-active').removeClass('tiy-active').text('')
+});
+
+
+$.fn.scrollView = function () {
+  return this.each(function () {
+    $('html, body').animate({
+      scrollTop: $(this).offset().top
+    }, 1000);
+  });
+}
+
+$('.home').click(function (event) {
+  event.preventDefault();
+  $('.top-view-container').scrollView();
+});
+
+$('.projects').click(function (event) {
+  event.preventDefault();
+  $('.my-work').scrollView();
+});
+
+$('.about').click(function (event) {
+  event.preventDefault();
+  $('.resume').scrollView();
+});
+
+$('.click-contact').click(function (event) {
+  event.preventDefault();
+  $('.contact-me').scrollView();
+});
+
