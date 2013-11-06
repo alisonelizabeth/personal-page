@@ -627,6 +627,7 @@ h3.contact-information-h3 {
 .print {
 	float: right;
 	margin-top: 5px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .print:hover {
