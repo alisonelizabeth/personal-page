@@ -162,6 +162,7 @@ ul {
 
 .social {
 	float: right;
+	padding-top: 10px;
 }
 
 .social img:hover {
