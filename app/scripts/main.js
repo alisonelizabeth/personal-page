@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
-	$('.one-third').mouseover(function(){
+	$('.text').mouseover(function(){
 		$('.line').css('background', '#acacac');
 		$('.year').css('color', 'rgb(117, 115, 115)');
 	});
 
-	$('.one-third').mouseleave(function(){
+	$('.text').mouseleave(function(){
 		$('.line').css('background', 'rgb(68, 68, 68)');
 		$('.year').css('color', 'white');
 	});
@@ -58,11 +58,12 @@ $(document).ready(function(){
 		$('.line-active').removeClass('magic-active').text('');
 	});
 
-	$('.school').mouseover(function(){
+	$('div#school.text').mouseover(function(){
+		console.log('hover')
 		$('.line-active').addClass('tiy-active').text('3 MOS');
 	});
 
-	$('.school').mouseleave(function(){
+	$('div#school.text').mouseleave(function(){
 		$('.line-active').removeClass('tiy-active').text('');
 	});
 
@@ -100,6 +101,7 @@ $.fn.scrollView = function () {
   });
 }
 
+// print page function for resume.html file
 function printPage() {
 	window.print();
 	console.log('print')

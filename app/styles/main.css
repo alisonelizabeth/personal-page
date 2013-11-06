@@ -168,6 +168,11 @@ ul {
 	float: right;
 }
 
+.social img:hover {
+	background: #333333;
+	border-radius: 40px;
+}
+
 /*my work styles*/
 .my-work {
 	width: 970px;
@@ -437,10 +442,10 @@ ul {
 .tiy-line {
 	display: inline-block;
 	border-bottom: 2px dotted rgb(68, 68, 68);
-	margin-left: 285px;
+	margin-left: 368px;
 	border-right: 2px dotted rgb(68, 68, 68);
-	height: 143px;
-	width: 167px;
+	height: 84px;
+	width: 84px;
 }
 
 .asu-circle {
@@ -562,8 +567,17 @@ ul {
 	margin-left: 20px;
 }
 
+.contact-images img:hover {
+	background: rgb(49, 104, 156);
+	border-radius: 40px;
+}
+
 p.find-online {
 	padding-bottom: 10px;
+}
+
+.email-me a:hover {
+	text-decoration: underline;
 }
 
 footer {
@@ -571,7 +585,6 @@ footer {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	color: rgb(34, 34, 34);
-	font-size: 20px;
 }
 
 /* resume.html styles*/
@@ -645,6 +658,10 @@ h3.contact-information-h3 {
 
 .github-link {
 	text-decoration: underline;
+}
+
+a.github-link:hover {
+	color: #acacac;
 }
 
 .resume-content {
