@@ -82,10 +82,6 @@ ul {
     cursor: pointer;
     text-align: center;
 }
-/*
-.keepImage {
-	background: blue;
-}*/
 
 .menu li:hover {
     background: rgb(224, 134, 134);
