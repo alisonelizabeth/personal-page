@@ -85,6 +85,10 @@ $(document).ready(function(){
 	  event.preventDefault();
 	  $('.contact-me').scrollView();
 	});
+
+	$('.print').click(function(){
+		printPage();
+	});
 });
 
 // scrolling feature for menu
@@ -94,4 +98,9 @@ $.fn.scrollView = function () {
       scrollTop: $(this).offset().top
     }, 1000);
   });
+}
+
+function printPage() {
+	window.print();
+	console.log('print')
 }
