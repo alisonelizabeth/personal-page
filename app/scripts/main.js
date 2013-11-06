@@ -27,7 +27,7 @@ $(document).ready(function(){
 	});
 
 	$('.film').mouseover(function(){
-		$('.line-active').addClass('film-active').text('1 YR 6 MOS')
+		$('.line-active').addClass('film-active').text('1 YR 6 MOS');
 	});
 
 	$('.film').mouseleave(function(){
@@ -59,7 +59,6 @@ $(document).ready(function(){
 	});
 
 	$('div#school.text').mouseover(function(){
-		console.log('hover')
 		$('.line-active').addClass('tiy-active').text('3 MOS');
 	});
 
@@ -94,15 +93,14 @@ $(document).ready(function(){
 
 // scrolling feature for menu
 $.fn.scrollView = function () {
-  return this.each(function () {
-    $('html, body').animate({
-      scrollTop: $(this).offset().top
-    }, 1000);
-  });
-}
+	return this.each(function () {
+		$('html, body').animate({ 
+			scrollTop: $(this).offset().top
+		}, 1000);
+	});
+};
 
 // print page function for resume.html file
 function printPage() {
 	window.print();
-	console.log('print')
 }
