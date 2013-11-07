@@ -43,19 +43,19 @@ $(document).ready(function(){
 	});
 
 	$('.asu').mouseover(function(){
-		$('.line-active').addClass('asu-active').text('3 YR 6 MOS');
+		$('.line-active').addClass('asu-active').text('3 YRS 4 MOS');
 	});
 
 	$('.asu').mouseleave(function(){
 		$('.line-active').removeClass('asu-active').text('');
 	});
 
-	$('.magic').mouseover(function(){
-		$('.line-active').addClass('magic-active').text('1 YR 5 MOS');
+	$('.ct').mouseover(function(){
+		$('.line-active').addClass('ct-active').text('1 YR 5 MOS');
 	});
 
-	$('.magic').mouseleave(function(){
-		$('.line-active').removeClass('magic-active').text('');
+	$('.ct').mouseleave(function(){
+		$('.line-active').removeClass('ct-active').text('');
 	});
 
 	$('div#school.text').mouseover(function(){
