@@ -968,7 +968,7 @@ a.github-link:hover {
 
 @media (max-width: 767px) {
 	.top-container {
-		width: 400px;
+		width: 300px;
 	}
 
 	.timeline {
@@ -1024,6 +1024,10 @@ a.github-link:hover {
 		margin-bottom: 0;
 	}
 
+	.my-work h1 {
+		font-size: 25px;
+	}
+
 	.project-image {
 		display: block;
 		margin-top: 0;
@@ -1069,6 +1073,10 @@ a.github-link:hover {
 		font-size: 17px;
 	}
 
+	.resume h1 {
+		font-size: 25px;
+	}
+
 	.container {
 		display: none;
 	}
@@ -1084,6 +1092,10 @@ a.github-link:hover {
 	.contact-me p {
 		font-size: 17px;
 		padding-bottom: 10px;
+	}
+
+	.contact-me h1 {
+		font-size: 25px;
 	}
 
 	.connect-info {
