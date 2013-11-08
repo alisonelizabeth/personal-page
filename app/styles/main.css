@@ -724,6 +724,21 @@ a.github-link:hover {
 	margin-top: 15px;
 }
 
+.profile {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.profile img {
+	width: 100px;
+	border-radius: 10px;
+}
+
+.connect-info {
+	display: inline-block;
+	width: 715px;
+}
+
 .footer {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
@@ -731,8 +746,8 @@ a.github-link:hover {
 	color: rgb(34, 34, 34);
 }
 
-/*ipad*/
-@media (min-width : 768px) and (max-width : 1024px) {
+/*iPad media queries*/
+@media (min-width: 768px) and (max-width: 1024px) {
 	.menu li {
 		padding:15px 5px;
 		font-size: 13px;
@@ -752,12 +767,14 @@ a.github-link:hover {
 
 	.top-view-layer {
 		width: 660px;
+		min-height: 450px;
 	}
 
 	.top-view-container {
 		width: 660px;
 		margin-left: 95px;
 		background-position: -37px;
+		min-height: 450px;
 	}
 
 	.contact {
@@ -932,7 +949,168 @@ a.github-link:hover {
 		font-size: 14px;
 	}
 
+	.profile img {
+		width: 75px;
+	}
+
+	.connect-info {
+		width: 550px;
+	}
+
+	.connect-info {
+		margin-left: -10px;
+	}
+
 	footer {
 		width: 760px;
 	}
+}
+
+@media (max-width: 767px) {
+	.top-container {
+		width: 400px;
+	}
+
+	.timeline {
+		display: none;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.top-view-layer {
+		display: none;
+	}
+
+	.top-view-container {
+		background: #3A3A3A;
+		text-align: center;
+		margin: 10px auto;
+		width: 300px;
+		min-height: 240px;
+	}
+
+	.top-view h1 {
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	h2.developer {
+		font-size: 18px;
+	}
+
+	h2.equestrian {
+		font-size: 15px;
+	}
+
+	.contact {
+		right: 0;
+		bottom: -110px;
+		font-size: 12px;
+	}
+
+	.social {
+		float: center;
+	}
+
+	.my-work {
+		width: 300px;
+		margin: 0 auto;
+	}
+
+	.my-work img {
+		width: 240px;
+		margin-bottom: 0;
+	}
+
+	.project-image {
+		display: block;
+		margin-top: 0;
+		padding-top: 15px;
+	}
+
+	.other-tools {
+		display: none;
+	}
+
+	.description {
+		padding-bottom: 10px;
+		width: 240px;
+	}
+
+	.description span {
+		display: none;
+	}
+
+	.description h2 {
+		font-size: 30px;
+	}
+
+	.description p {
+		font-size: 15px;
+	}
+
+	.description ul {
+		font-size: 15px;
+	}
+
+	.description h3 {
+		font-size: 14px;
+	}
+
+	.resume {
+		width: 300px;
+		margin: 10px auto;
+		border-radius: 10px;
+	}
+
+	.resume p {
+		font-size: 17px;
+	}
+
+	.container {
+		display: none;
+	}
+
+	.contact-me {
+		width: 300px;
+		margin: 0 auto;
+		height: 445px;
+		position: relative;
+		margin-bottom: 10px;
+	}
+
+	.contact-me p {
+		font-size: 17px;
+		padding-bottom: 10px;
+	}
+
+	.connect-info {
+		width: 240px;
+		margin-top: 40px;
+	}
+
+	.profile img {
+		margin-left: 70px;
+	}
+
+	.find-online {
+		display: none;
+	}
+
+	.contact-images {
+		position: absolute;
+		bottom: 237px;
+		left: 66px;
+	}
+
+	.contact-images img {
+		width: 25px;
+	}
+
+	footer {
+		font-size: 14px;
+	}
+
 }
